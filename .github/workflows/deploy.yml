@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # ※もしお使いのメインブランチ名が master の場合は master に書き換えてください
+      - production  # ※もしお使いのメインブランチ名が master の場合は master に書き換えてください
 
 permissions:
   contents: read
